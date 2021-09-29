@@ -3,7 +3,7 @@ const jedi = [];
 console.log(jedi);
 
 // 1b
-jedi [0] = "Luke";
+jedi[0] = "Luke";
 console.log(jedi);
 
 // 1c
@@ -27,8 +27,8 @@ console.log(jedi);
 
 // 2a
 const sithLords = [
-  "Darth Vader", 
-  "Darth Sidious", 
+  "Darth Vader",
+  "Darth Sidious",
   "Darth Maul"
 ];
 console.log(sithLords);
@@ -45,7 +45,7 @@ const starWarsVillains = sithLords.concat(imperialOfficers);
 console.log(starWarsVillains);
 
 // 2d
-console.log(starWarsVillains.slice(0,2));
+console.log(starWarsVillains.slice(0, 2));
 
 // 3a
 const droids = {
@@ -64,3 +64,35 @@ console.log(droids.protocol);
 // 3d
 droids.assassin = 'IG-11';
 console.log(droids);
+
+//BONUS TERRITORY
+//4
+console.log(sithLords[0][6]);
+
+//5
+console.log(sithLords.slice(-2, -1));
+
+//6a
+const starWarsMovies = [
+  {
+    episodeOne: "The Phantom Menace",
+    episodeTwo: "Attack of the Clones",
+    episodeThree: "Revenge of the Sith"
+  },
+  {
+    episodeFour: "A New Hope",
+    episodeFive: "The Empire Strikes Back",
+    episodeSix: "Return of the Jedi"
+  },
+  {
+    episodeSeven: "The Force Awakens",
+    episodeEight: "The Last Jedi",
+    episodeNine: "The Rise of Skywalker"
+  },
+
+];
+console.log(starWarsMovies);
+
+//6b
+starWarsMovies.splice(1,0, "Solo", "Rogue One")
+console.log(starWarsMovies);
