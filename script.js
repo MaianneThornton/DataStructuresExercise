@@ -19,10 +19,14 @@ console.log(jedi[1]);
 
 // 1f
 jedi.pop();
+//another way to solve: 
+// jedi.splice(2,1);
 console.log(jedi);
 
 // 1g
 jedi.shift();
+//another way to solve:
+//jedi.splice(0,1);
 console.log(jedi);
 
 // 2a
@@ -46,6 +50,8 @@ console.log(starWarsVillains);
 
 // 2d
 console.log(starWarsVillains.slice(0, 2));
+//another way to solve:
+// console.log(sithLords.slice(0, 2));
 
 // 3a
 const droids = {
@@ -63,6 +69,9 @@ console.log(droids.protocol);
 
 // 3d
 droids.assassin = 'IG-11';
+//another way to solve:
+// droids["assassin"] = "IG-11";
+
 console.log(droids);
 
 //BONUS TERRITORY
@@ -94,5 +103,5 @@ const starWarsMovies = [
 console.log(starWarsMovies);
 
 //6b
-starWarsMovies.splice(1,0, "Solo", "Rogue One")
+starWarsMovies.splice(1,0, "Solo", "Rogue One");
 console.log(starWarsMovies);
