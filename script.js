@@ -67,7 +67,7 @@ console.log(droids);
 
 //BONUS TERRITORY
 //4
-console.log(sithLords[0][6]);
+console.log(starWarsVillains[0][6]);
 
 //5
 console.log(sithLords.slice(-2, -1));
@@ -88,7 +88,7 @@ const starWarsMovies = [
     episodeSeven: "The Force Awakens",
     episodeEight: "The Last Jedi",
     episodeNine: "The Rise of Skywalker"
-  },
+  }
 
 ];
 console.log(starWarsMovies);
